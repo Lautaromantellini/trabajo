@@ -1,0 +1,32 @@
+.integrantes {
+    color:black;
+    font-size: 20px;
+    font-style: bold;
+    text-transform: capitalize;
+    text-align: center;
+    list-style-type: circle;
+    list-style-position: inside;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(212, 212, 212,0.8);
+    background-position: center;
+    .integrantes__listado{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        li{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 120px;
+                height: 120px;
+            }
+            h4{
+                color: black;
+            }
+            
+        }
+        .horacio{
+            grid-column: 1/3;
+        }
+    }
+}

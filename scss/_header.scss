@@ -1,0 +1,14 @@
+header{       
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    text-transform: capitalize;
+    background-image: linear-gradient(to left, rgb(63, 63, 63) , rgb(197, 197, 197));
+    width: 100%;
+    .header__logo{
+        .logo--color{
+            color: black;
+        }
+        
+    }
+ }

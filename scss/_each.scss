@@ -1,0 +1,23 @@
+$SpacesSizes: (
+    0: 0px,
+    10: 10px,
+    20: 20px,
+    50: 50px,
+    100: 100px,
+  );
+  
+  $PaddingsType: (
+    pa: padding,
+    pt: padding-top,
+    pb: padding-bottom,
+    pl: padding-left,
+    pr: padding-right,
+  );
+  
+@each $classType, $type in $PaddingsType {
+    @each $classSize, $size in $SpacesSizes {
+      .#{$classType}-#{$classSize} {
+        #{$type}: #{$size};
+      }
+    }
+  }

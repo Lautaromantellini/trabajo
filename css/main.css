@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.gradient {
+  background: linear-gradient(to left, black, white, black);
+  background-size: 250% 250%;
+  animation: gradientAnim 10s ease infinite; }
+
+@keyframes gradientAnim {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 10px; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.titulos {
+  margin: 0 auto;
+  background-color: rgba(211, 211, 211, 0.8);
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  text-transform: capitalize;
+  background-image: linear-gradient(to left, #3f3f3f, #c5c5c5);
+  width: 100%; }
+  header .header__logo .logo--color {
+    color: black; }
+
+#quienes-somos p {
+  color: black;
+  background-color: rgba(211, 211, 211, 0.8);
+  text-align: center;
+  width: 100%; }
+
+.integrantes {
+  color: black;
+  font-size: 20px;
+  font-style: bold;
+  text-transform: capitalize;
+  text-align: center;
+  list-style-type: circle;
+  list-style-position: inside;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: rgba(212, 212, 212, 0.8);
+  background-position: center; }
+  .integrantes .integrantes__listado {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .integrantes .integrantes__listado li {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .integrantes .integrantes__listado li img {
+        width: 120px;
+        height: 120px; }
+      .integrantes .integrantes__listado li h4 {
+        color: black; }
+    .integrantes .integrantes__listado .horacio {
+      grid-column: 1/3; }
+
+.historia .historia__texto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(211, 211, 211, 0.8); }
+  .historia .historia__texto p {
+    color: black;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: 'Cormorant Garamond', serif;
+    height: 100%;
+    text-align: center; }
+
+.historia img {
+  width: 100%; }
+
+.funciones .funciones__divisa {
+  background-color: rgba(211, 211, 211, 0.8);
+  margin: 1rem; }
+  .funciones .funciones__divisa table {
+    color: black;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0 auto;
+    border: solid 1px black;
+    width: 80%; }
+    .funciones .funciones__divisa table thead {
+      color: maroon;
+      font-size: 25px;
+      background-color: lightgray; }
+    .funciones .funciones__divisa table td {
+      color: black;
+      font-size: 15px;
+      background-color: lightgray; }
+      .funciones .funciones__divisa table td a img {
+        width: 50%; }
+
+.instrumentos .instrumentos__instrumentos2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(211, 211, 211, 0.8);
+  padding: 1rem; }
+  .instrumentos .instrumentos__instrumentos2 .instrumentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .instrumentos .instrumentos__instrumentos2 .instrumentos img {
+      width: 40%; }
+
+@media only screen and (max-width: 380px) {
+  .header {
+    flex-direction: column;
+    width: 100%; }
+  .nav {
+    width: 100%;
+    padding: 5px; }
+  .instrumentos {
+    grid-column: 1/5; }
+  .historia img {
+    width: 100%;
+    display: none; }
+  section p {
+    grid-column: 1/3;
+    text-align: justify;
+    padding: 5px; } }
+
+@media only screen and (max-width: 770px) {
+  .historia img {
+    display: none; }
+  section p {
+    grid-column: 1/3;
+    text-align: justify;
+    padding: 5px; } }
+
+main {
+  width: 100%; }
+
+.contacto {
+  background-color: rgba(211, 211, 211, 0.8); }
+
+.pa-0 {
+  padding: 0px; }
+
+.pa-10 {
+  padding: 10px; }
+
+.pa-20 {
+  padding: 20px; }
+
+.pa-50 {
+  padding: 50px; }
+
+.pa-100 {
+  padding: 100px; }
+
+.pt-0 {
+  padding-top: 0px; }
+
+.pt-10 {
+  padding-top: 10px; }
+
+.pt-20 {
+  padding-top: 20px; }
+
+.pt-50 {
+  padding-top: 50px; }
+
+.pt-100 {
+  padding-top: 100px; }
+
+.pb-0 {
+  padding-bottom: 0px; }
+
+.pb-10 {
+  padding-bottom: 10px; }
+
+.pb-20 {
+  padding-bottom: 20px; }
+
+.pb-50 {
+  padding-bottom: 50px; }
+
+.pb-100 {
+  padding-bottom: 100px; }
+
+.pl-0 {
+  padding-left: 0px; }
+
+.pl-10 {
+  padding-left: 10px; }
+
+.pl-20 {
+  padding-left: 20px; }
+
+.pl-50 {
+  padding-left: 50px; }
+
+.pl-100 {
+  padding-left: 100px; }
+
+.pr-0 {
+  padding-right: 0px; }
+
+.pr-10 {
+  padding-right: 10px; }
+
+.pr-20 {
+  padding-right: 20px; }
+
+.pr-50 {
+  padding-right: 50px; }
+
+.pr-100 {
+  padding-right: 100px; }

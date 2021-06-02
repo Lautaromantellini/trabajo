@@ -1,0 +1,19 @@
+.historia {
+    .historia__texto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: rgba(211, 211, 211,0.8);
+        p {
+            color:black;
+            font-size: 15px;
+            line-height: 1.6;
+            font-family: 'Cormorant Garamond', serif;
+            height: 100%;
+            text-align: center;
+        }
+    }
+    img{
+        width: 100%;
+    }
+
+}

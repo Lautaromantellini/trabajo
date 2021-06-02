@@ -1,0 +1,30 @@
+.funciones{
+    .funciones__divisa{
+        background-color: rgba(211, 211, 211,0.8);
+        margin: 1rem;
+        table {
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            margin: 0 auto;
+            border: solid 1px black;
+            width: 80%;
+            thead{ 
+                color: maroon;
+                font-size: 25px;
+                background-color: lightgray;
+                
+            }
+            td {
+                color: rgb(0, 0, 0);
+                font-size:15px;
+                background-color: lightgray;
+                a{
+                    img{
+                        width: 50%;
+                    } 
+                }
+            }
+        }
+    }
+}
