@@ -133,7 +133,7 @@ header {
     .instrumentos .instrumentos__instrumentos2 .instrumentos img {
       width: 40%; }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 480px) {
   .header {
     flex-direction: column;
     width: 100%; }
@@ -238,3 +238,22 @@ main {
 
 .pr-100 {
   padding-right: 100px; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to right, #3f3f3f, #c5c5c5); }
+  .footer .boton {
+    width: 70px;
+    height: 45px;
+    background-color: black;
+    border-radius: 30px;
+    padding-top: 1px;
+    padding-left: 15px; }
+    .footer .boton a {
+      text-decoration: none;
+      color: white; }
