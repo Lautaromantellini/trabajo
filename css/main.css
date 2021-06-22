@@ -145,6 +145,8 @@ header {
   .nav {
     width: 100%;
     padding: 5px; }
+  .integrantes__listado li {
+    grid-column: 1/-1; }
   .instrumentos {
     grid-column: 1/5; }
   .historia img {
